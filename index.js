@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 // Simple route
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Hello World! My first Node.js app is working!',
+    message: 'My first Node.js app is working!',
     timestamp: new Date().toISOString()
   });
 });
