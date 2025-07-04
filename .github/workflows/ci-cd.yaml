@@ -1,4 +1,4 @@
-yamlname: My First CI/CD Pipeline
+name: My First CI/CD Pipeline
 
 on:
   push:
